@@ -64,3 +64,36 @@
     border: none;
     background-image: linear-gradient(to left, white,rgb(231, 231, 231));
 }
+.card img{
+    width: 150px;
+}
+.costomize{
+    background-color: hotpink;
+    box-shadow: none;
+    height: 300px;
+    position: relative;
+}
+.card-item{
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+}
+.card-item input{
+    padding: 5px 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin-right: -4px;
+}
+.bt{
+    padding: 5px 10px;
+    background-color:#dc143c;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #dc143c;
+    
+}
